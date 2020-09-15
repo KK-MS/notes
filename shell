@@ -1,0 +1,8 @@
+# Shell commands
+
+
+## Move the git status list files to backup
+```
+$ git status . | xargs -I '{}' mv {} ../backup/
+```
+Example: Uncomment files to backup
