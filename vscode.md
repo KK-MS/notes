@@ -63,7 +63,32 @@ Could not locate cached archive: C:\Users\k.mayannavar\AppData\Local\vcpkg\archi
 -- Configuring x86-windows
 -- Building x86-windows-dbg
 -- Building x86-windows-rel
-..
+... snip
+-- Building x86-windows-dbg
+-- Building x86-windows-rel
+-- Installing: C:/ins/vcpkg/packages/opencv4_x86-windows/share/opencv4/copyright
+-- Performing post-build validation
+-- Performing post-build validation done
+Stored binary cache: C:\Users\k.mayannavar\AppData\Local\vcpkg\archives\d3\d30f5460ac15fe1f3eaa6b8bd4c6e050cbbfb25b.zip
+Building package opencv4[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows... done
+Installing package opencv4[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows...
+Installing package opencv4[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows... done
+Elapsed time for package opencv4:x86-windows: 10.23 min
+Starting package 10/10: opencv:x86-windows
+Building package opencv[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows...
+Could not locate cached archive: C:\Users\k.mayannavar\AppData\Local\vcpkg\archives\5a\5a7fed0d096e1dce0470546a5095007b8ba9dbb6.zip
+-- Performing post-build validation
+-- Performing post-build validation done
+Stored binary cache: C:\Users\k.mayannavar\AppData\Local\vcpkg\archives\5a\5a7fed0d096e1dce0470546a5095007b8ba9dbb6.zip
+Building package opencv[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows... done
+Installing package opencv[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows...
+Installing package opencv[core,dnn,jpeg,opengl,png,tiff,webp]:x86-windows... done
+Elapsed time for package opencv:x86-windows: 1.929 s
 
+Total elapsed time: 16.74 min
+
+
+c:\ins\vcpkg>
+c:\ins\vcpkg>
 
 ```
