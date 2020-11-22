@@ -1,5 +1,15 @@
 # Dart language notes
 
+## DartDoc: Generate dart code document
+
+https://dart.dev/guides/language/effective-dart/usage
+
+## Technical writing 
+Top level tips and notes for technical writing. Helpful in paper, code comments.
+
+https://en.wikiversity.org/wiki/Technical_writing/Style
+
+
 ## Tutorial: 
 * Online tutorial article: https://www.tutorialspoint.com/dart_programming/index.htm
 
