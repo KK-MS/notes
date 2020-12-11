@@ -1,3 +1,47 @@
+## nodejs
+
+### node-snippets, chris-noring.node-snippets
+
+The following commands are available:
+
+node-express, creates an express server
+
+node-express-get, creates GET route
+
+node-express-get-params, creates a GET route and shows how to access parameters
+
+node-express-post, creates a POST route
+
+node-express-post-params, creates a POST route and shows how to access the body
+
+node-http-server, creates a simple HTTP server
+
+node-file-read-sync, reads a file synchronously
+
+node-file-read-async, reads a file asynchronously, with a callback
+
+node-event-emitter, creates an event emitter, emit events and shows to subscribe to said event
+
+node-promise-create, creates a Promise
+
+node-supertest-init, adds the initial imports for supertest and the app you are about to test. I assume the app you are about to test looks something like this:
+```js
+//  app.js
+const express = require('express')
+const app = express();
+// your route definitions
+module.exports = app;
+```
+and that your file structure looks like this:
+
+```
+-| app.js    // this is where the web app goes
+-| __tests__/
+---| app.js  // this where the tests goes
+node-supertest-beforeall, configures supertest to use the app instance, this is a needed step to initialize supertest
+```
+
+.... more ...
 
 
 ## using vcpkg
