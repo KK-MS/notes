@@ -17,3 +17,15 @@ https://www.exist.de/DE/Mediathek/Videos/inhalt.html
 
 https://www.bmbf.de/foerderungen/bekanntmachung-2574.html
 
+## Business idea
+
+### Tutorial as business
+
+https://flutterbuilders.com/#how-it-works
+
+Others can be added! 
+* Embedded
+* Linux
+* OpenCV
+* Software architecture, 
+* Agile scrum
