@@ -4,6 +4,45 @@
 Plugin in vscode NODE TDD, prashaantt.node-tdd
 
 # Connection
+## Trust 
+
+https://superuser.com/questions/582624/how-to-access-nodejs-server-on-lan
+
+### Method 1: 
+First, you need to add C:\Program Files (x86)\node to the list of trusted applications in your firewall.
+
+### Method 2: 
+Doing following worked for me on a windows PC. Try this : open
+
+Control Panel\System and Security\Windows Defender Firewall\Allowed apps
+
+Next look for node.js in the list and click change settings > Make sure private access is checked and then click ok.
+
+### Method 3:
+Rather than doing all the configurations (Setting firewall, forwarding port etc) I used localtunnel which is an utility for exposing local node server over Internet. You can use it for development,testing,sharing purpose, just don't use it for production.
+
+First you have to install localtunnel as follows:
+```console
+$npm install -g localtunnel
+```
+After that configure your node app such that your node server should be running on localhost. For ex:
+```javascript
+server.listen(3000, function () {
+console.log('Listening to port:  ' + port);
+});
+```
+Note down your_port which in my case was 3000, and start your node server.
+
+Open another terminal and type following command for running localtunnel.
+
+```console
+$lt --port 3000
+```
+After this , in terminal you will get an URL which you can use it for development/testing purpose. This URL will be available on Internet so you can share it with others too. As long as your localtunnel is running, others can access your local node server.
+
+For more configuration options/help you can go through documentation: https://www.npmjs.com/package/localtunnel
+
+
 
 ## Socket TCP/UDP
 
