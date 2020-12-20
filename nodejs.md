@@ -42,7 +42,41 @@ After this , in terminal you will get an URL which you can use it for developmen
 
 For more configuration options/help you can go through documentation: https://www.npmjs.com/package/localtunnel
 
+### Method 3 tested okay:
+Test tunnel method and was able to send a image from Device to PC server.
 
+```console
+Krishnakumar.Mayanna@IFMNB09 MINGW64 /c/prj/nodejs/flutter_node/server
+$ node index.js
+[Object: null prototype] { WLAN: [ '192.168.0.20' ] }
+Started server: http://192.168.0.20:3000/upload
+
+
+Received fileimage_picker5837641810884788501.jpg
+```
+Note down the port and give the same port during the creation of tunnel.
+
+```console
+Krishnakumar.Mayanna@IFMNB09 MINGW64 /c/prj/nodejs/flutter_node/server
+$ ./node_modules/localtunnel/bin/lt.js --port 3000
+your url is: https://horrible-warthog-78.loca.lt
+```
+
+Send an image/file from client using url:
+<pre>
+https://horrible-warthog-78.loca.lt/upload
+<\pre>
+
+File received at server side. console log:
+```console
+Krishnakumar.Mayanna@IFMNB09 MINGW64 /c/prj/nodejs/flutter_node/server
+$ node index.js
+[Object: null prototype] { WLAN: [ '192.168.0.20' ] }
+Started server: http://192.168.0.20:3000/upload
+
+
+Received fileimage_picker5837641810884788501.jpg
+```
 
 ## Socket TCP/UDP
 
