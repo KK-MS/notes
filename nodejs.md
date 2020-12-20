@@ -65,7 +65,7 @@ your url is: https://horrible-warthog-78.loca.lt
 Send an image/file from client using url:
 <pre>
 https://horrible-warthog-78.loca.lt/upload
-<\pre>
+</pre>
 
 File received at server side. console log:
 
