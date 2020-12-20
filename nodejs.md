@@ -68,6 +68,7 @@ https://horrible-warthog-78.loca.lt/upload
 <\pre>
 
 File received at server side. console log:
+
 ```console
 Krishnakumar.Mayanna@IFMNB09 MINGW64 /c/prj/nodejs/flutter_node/server
 $ node index.js
@@ -77,6 +78,13 @@ Started server: http://192.168.0.20:3000/upload
 
 Received fileimage_picker5837641810884788501.jpg
 ```
+
+```Console
+Krishnakumar.Mayanna@IFMNB09 MINGW64 /c/prj/nodejs/flutter_node/server
+$ ls uploads/
+image_picker5837641810884788501.jpg
+```
+The flle is saved in folder 'uploads'.
 
 ## Socket TCP/UDP
 
