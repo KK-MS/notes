@@ -100,6 +100,9 @@ localtunnel host:      [express server] --- [TCP server]
 ```  
 Basically when you type lt --port 8000 in your console, it launches the localtunnel client. This connects to the express server located in the cloud. This express server gives you back the address where your app should connect. Then it launches the tcp server that listens for connections from your app. The tcp server also opens 10 sockets with the localtunnel client, for sending data. When a connection comes from the app, the tcp server sends the data to the localtunnel client on one of the 10 sockets. The data is then piped to a local http client that issues the request to your server.
 
+### Socket tunnel
+
+To read: https://ericbarch.com/post/sockettunnel/
 
 ## Socket TCP/UDP
 
