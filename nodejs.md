@@ -86,6 +86,21 @@ image_picker5837641810884788501.jpg
 ```
 The flle is saved in folder 'uploads'.
 
+How localtunnel works: https://stackoverflow.com/questions/53170115/how-localtunnel-works-under-the-hood/53180742#53180742
+
+Here is a diagram of all he services involved in localtunnel, grouped by host.
+```java
+       localhost:             [localtunnel client]  --- [HTTP client] --- [your server]
+                               |                |  
+                               |                | 
+localtunnel host:      [express server] --- [TCP server]
+                                                    |
+                                                    |
+   internet user:                                 [app]
+```  
+Basically when you type lt --port 8000 in your console, it launches the localtunnel client. This connects to the express server located in the cloud. This express server gives you back the address where your app should connect. Then it launches the tcp server that listens for connections from your app. The tcp server also opens 10 sockets with the localtunnel client, for sending data. When a connection comes from the app, the tcp server sends the data to the localtunnel client on one of the 10 sockets. The data is then piped to a local http client that issues the request to your server.
+
+
 ## Socket TCP/UDP
 
 https://gist.github.com/tedmiston/5935757
