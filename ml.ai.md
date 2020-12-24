@@ -4,7 +4,8 @@
 
 ### Tensorflow **
 * https://github.com/tensorflow/tensorflow
-* Check the links: Tutorial, online-experiment, etc.
+* Check the links: Tutorial, online-experiment, Android, etc.
+* TBD: Android + Tensorflow.
 * Also note: C++ is used more !!
 
 ### Full course of ML Euro 20/months. Access to all library contents.
