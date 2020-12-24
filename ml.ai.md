@@ -2,6 +2,11 @@
 
 ## Tutorials
 
+### Tensorflow **
+* https://github.com/tensorflow/tensorflow
+* Check the links: Tutorial, online-experiment, etc.
+* Also note: C++ is used more !!
+
 ### Full course of ML Euro 20/months. Access to all library contents.
 * https://www.logikbot.com/
 
