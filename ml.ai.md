@@ -8,6 +8,12 @@
 * TBD: Android + Tensorflow.
 * Also note: C++ is used more !!
 
+### AI Kit
+* OpenCV AI KIT: https://store.opencv.ai/
+
+### Training
+* AI involving: DeepSim, Neural network, Infrastructure, Database, https://www.minds.ai/
+
 ### Full course of ML Euro 20/months. Access to all library contents.
 * https://www.logikbot.com/
 
