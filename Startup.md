@@ -19,6 +19,14 @@ https://www.bmbf.de/foerderungen/bekanntmachung-2574.html
 
 ## Business idea
 
+## External projects
+
+### GIMS
+https://www.gims-project.eu/work-packages/
+
+This project has received funding from the European GNSS Agency
+under the European Union’s Horizon 2020 research
+
 ### Tutorial as business
 
 https://flutterbuilders.com/#how-it-works
