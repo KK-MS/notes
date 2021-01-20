@@ -1,5 +1,5 @@
 # Diagram generators
-|  [Plantuml](#plantuml) | [Graphviz_dot](#graphviz_dot) | [Yworks](#yworks) |
+|  [Plantuml](#plantuml) | [Graphviz_dot](#graphviz_dot) | [Yworks](#yworks) | [ThreeJS](#threejs) |
 
 ## Plantuml
 
@@ -31,3 +31,6 @@ https://graphs.grevian.org/graph
 
 https://live.yworks.com/demos/complete/isometricdrawing/index.html
 
+## ThreeJS
+
+Examples: https://threejs.org/examples/
