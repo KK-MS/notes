@@ -1,5 +1,5 @@
 # Diagram generators
-|[Plantuml](#plantuml)||[Graphviz_dot](#graphviz_dot)||[Yworks](#yworks)|
+|  [Plantuml](#plantuml) | [Graphviz_dot](#graphviz_dot) | |[Yworks](#yworks) |
 
 ## Plantuml
 
