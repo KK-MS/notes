@@ -8,15 +8,16 @@ https://code.visualstudio.com/docs/editor/variables-reference
 
 Most used variables are:
 
-${workspaceFolder} - the path of the folder opened in VS Code
-${file} - the current opened file
-${fileDirname} - the current opened file's dirname
-${cwd} - the task runner's current working directory on startup
+* ${workspaceFolder} - _the path of the folder opened in VS Code_
+* ${file} - _the current opened file_
+* ${fileDirname} - _the current opened file's dirname_
+* ${cwd} - _the task runner's current working directory on startup_
 
 
 **Environment variables**
 
-reference environment variables through the **${env:Name}** syntax (for example, ${env:USERNAME}).
+* ${env:Name} - _Access reference environment variables through the_ ${env:Name} _syntax._
+for example, ${env:USERNAME}).
 
 Example:
 
