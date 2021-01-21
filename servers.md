@@ -1,5 +1,21 @@
+| [Language server](#language-server) | [Streaming server](#streaming-and-recording) | [Samba server](#samba-server) |
 # Servers
-## Streaming: vidio audio live recording
+
+## Language server
+
+https://langserver.org/
+
+https://llvm.org/
+
+VIM FILES FOR LOW LEVEL VIRTUAL MACHINE (LLVM)
+
+https://vimawesome.com/plugin/vim-llvm-care-of-itself
+
+
+## Streaming and recording
+
+Video audio live recording
+
 ### 1. Agora
 https://www.agora.io/en/pricing/
 Kk.contact.mail@gmail.com 
@@ -16,7 +32,7 @@ https://swizec.com/blog/benchmarking-node-tornado-and-django-for-concurrency
 
 https://dzone.com/articles/learn-python-django-in-4-hours
 
-## Samba server setup
+## Samba server
 
 ### Information
 smb://ll-SRV-file.livinglab.local
