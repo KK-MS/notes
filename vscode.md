@@ -1,3 +1,48 @@
+| [Variable reference](#variable-reference) | [CPP](#cpp) | [nodejs](#nodejs) | [vcpkg](#vcpkg) |
+
+## Variable reference
+
+https://code.visualstudio.com/docs/editor/variables-reference
+
+**Predefined variables:**
+
+Most used variables are:
+
+${workspaceFolder} - the path of the folder opened in VS Code
+${file} - the current opened file
+${fileDirname} - the current opened file's dirname
+${cwd} - the task runner's current working directory on startup
+
+
+**Environment variables**
+
+reference environment variables through the **${env:Name}** syntax (for example, ${env:USERNAME}).
+
+Example:
+
+```console
+{
+  "type": "node",
+  "request": "launch",
+  "name": "Launch Program",
+  "program": "${workspaceFolder}/app.js",
+  "cwd": "${workspaceFolder}",
+  "args": ["${env:USERNAME}"]
+}
+```
+## CPP
+
+https://code.visualstudio.com/docs/cpp/config-msvc
+
+|# | .vscode folder file | description|
+|---|---|---|
+|1| [tasks.json](#tasks-json) |build instructions |
+|2| launch.json |debugger settings |
+|3| c_cpp_properties.json | compiler path and IntelliSense settings|
+
+### tasks json
+
+
 ## nodejs
 
 ### node-snippets, chris-noring.node-snippets
@@ -44,7 +89,7 @@ node-supertest-beforeall, configures supertest to use the app instance, this is 
 .... more ...
 
 
-## using vcpkg
+## vcpkg
 
 Ref: https://www.eximiaco.tech/en/2019/07/27/hello-opencv-with-c-using-visual-studio-2017-and-vcpkg/
 ```console
