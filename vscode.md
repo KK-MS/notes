@@ -35,13 +35,20 @@ Example:
 
 https://code.visualstudio.com/docs/cpp/config-msvc
 
-|# | .vscode folder file | description|
-|---|---|---|
-|1| [tasks.json](#tasks-json) |build instructions |
-|2| launch.json |debugger settings |
-|3| c_cpp_properties.json | compiler path and IntelliSense settings|
+|# | .vscode folder file | description| external link |
+|---|---|---|---|
+|1| [tasks.json](#tasks-json) |build instructions | |
+|2| [launch.json](#lanuch-json) |debugger settings | [debugging](https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes)|
+|3| [c_cpp_properties.json](#c_cpp_properties-json) | compiler path and IntelliSense settings| [c_cpp](https://code.visualstudio.com/docs/cpp/config-msvc#_cc-configurations)|
 
 ### tasks json
+
+### launch json
+
+### C_CPP_Properties json
+
+
+https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes
 
 
 ## nodejs
