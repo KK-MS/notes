@@ -1,4 +1,10 @@
+| [Checklist](#checklist) | [Plagiarism](#plagiarism) | [Forums](#university-forums) | [Usability](#usability)|
 
+## Checklist
+
+1. Research paper in statements of PPT
+2. Formulas/equations
+3. Source/Link of paper
 
 ## Plagiarism
 
@@ -6,7 +12,8 @@ You can check the plagiarism of your research papers using the online tool dupli
 
 https://www.duplichecker.com/
 
-## Hochschule papers search
+## University forums
+Forum where we can search for papers
 
 https://www.perinorm.com/home/default.aspx?ReturnUrl=%2fsearch.aspx
 
