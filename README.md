@@ -10,6 +10,7 @@ UI with 3D view and editor:
 
 https://developers.arcgis.com/javascript/latest/sample-code/widgets-editor-3d/
 
+https://developers.arcgis.com/javascript/latest/sample-code/visualization-realistic-water/
 
 ### Carla
 
