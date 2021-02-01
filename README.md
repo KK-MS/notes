@@ -24,14 +24,12 @@ Sam company, website plugings
 
 https://awesomemotive.com/
 
-###
-
-Impfzentren bayern
+### Impfzentren bayern
 
 https://impfzentren.bayern/
 
-###
+### Think-cell 
 
-Think-cell for project management
+for project management
 
 https://www.think-cell.com/en/
