@@ -23,3 +23,9 @@ https://carla.org/
 Sam company, website plugings
 
 https://awesomemotive.com/
+
+###
+
+Impfzentren bayern
+
+https://impfzentren.bayern/
