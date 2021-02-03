@@ -13,6 +13,11 @@ https://blog.codemagic.io/flutter-custom-painter/
 
 We can draw, and with it we can animate
 
+### Canvas with multi touch
+
+https://blog.codemagic.io/multi-touch-canvas-with-flutter/
+
+
 ## Functionality
 
 ### Upload a file:
