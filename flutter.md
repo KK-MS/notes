@@ -1,4 +1,11 @@
 *
+## Drawing
+
+### CustomPainter
+
+https://blog.codemagic.io/flutter-custom-painter/
+
+We can draw, and with it we can animate
 
 ## Functionality
 
