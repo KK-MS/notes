@@ -3,7 +3,7 @@
 ## Agile Scrum 
 
 Share planned sprint stories. You can pick from backlog or add new stories. Share your user-stories in its format:
-As an ….. (architect/researcher/developer/tester/), I want to do ….. so that ……
+As an ….. (architect/researcher/developer/tester/), I want to (research, study, design, develop, construct) ….. so that I can ... (demo, design, other materialistic objective.. )
 
 Tips:
 
