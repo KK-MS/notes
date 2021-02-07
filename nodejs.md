@@ -3,6 +3,31 @@
 
 Plugin in vscode NODE TDD, prashaantt.node-tdd
 
+### NW JS with Node.js
+
+https://github.com/nwjs/nw.js/issues/2066
+
+Note the usage of 'main' with server address and 'node-main'
+
+
+Yep, it's possible. Trivial example:
+
+``` js
+package.json
+{
+  "name": "nw-server-example",
+  "main": "http://127.0.0.1:9000",
+  "node-main": "server.js"
+}
+server.js
+#!/usr/bin/env node
+
+require('http').createServer(function(req, res) {
+  res.writeHead(200, {'content-type': 'text/html'});
+  res.end('<h1>sup</h1>');
+}).listen(9000, '127.0.0.1');
+
+
 # Connection
 ## Trust 
 
