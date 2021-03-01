@@ -1,5 +1,13 @@
 # ADAS/AD related info
 
+## Standards:
+
+### ECE regulations
+
+https://de.wikipedia.org/wiki/ECE-Regelungen
+
+This regulation provides parameters, standards for many vehicle components, functionalities.
+
 ## Evaluation
 ### UK Govt call for evaluation of Automated Lane Keeping System (ALKS)
 https://www.legislation.gov.uk/ukpga/2018/18/contents/enacted
