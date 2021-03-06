@@ -10,6 +10,16 @@ Here is a must-watch master class from Anand Mahindra on how to leverage social 
 
 https://www.linkedin.com/posts/ritujain33_rjmusings-branding-marketing-activity-6773871633640759296-NGip
 
+Tweet about music, new things, etc.
+
+People should say: *If I follow, I will get new things*
+
+People testing: *If I do subject the cost is in millions, that I can do it for free on social media, e.g., twitter,"
+
+Enpowerment: 8:18: *Employees, distributor, partners, etc., know I know or will get to know about it*
+
+Connect: *Customer, Employees, distributor, partners, etc., can directly connect*
+
 ## Exist
 
 https://www.exist.de/EN/Home/home_node.html
