@@ -13,6 +13,7 @@ https://carla.org/
 * Carla is combine with CarSim (more at: https://carla.org/2020/12/22/release-0.9.11/)
 * Abour CarSim: https://www.carsim.com/products/carsim/index.php
 * Carla with RoS: ROS Bridge-CARLA experience (more at: https://carla.org/2020/12/22/release-0.9.11/)
+* https://www.youtube.com/watch?v=AaJekfFR1KQ : Good tutorial showing CARLA toplevel: Unreal engine and a python client to get sensor data.
 
 ## LGSVL Simulator
 
