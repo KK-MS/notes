@@ -24,3 +24,7 @@
 
 ### Open data science
 * https://ods.ai/
+
+## Hardware
+
+* Gaming laptop: https://www.razer.com/gaming-laptops/razer-blade
