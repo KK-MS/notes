@@ -2,6 +2,12 @@
 
 ## Tutorials
 
+### Tech talks
+* Tesla autonomy neural networks How AI neural networks function in Tesla: https://www.youtube.com/watch?v=eZOHA6Uy52k
+  * Vision is needed. Others are optional.
+  * Multi stereo view algorithm to create 3D cloud points
+
+
 ### Tensorflow **
 * https://github.com/tensorflow/tensorflow
 * Check the links: Tutorial, online-experiment, Android, etc.
