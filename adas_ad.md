@@ -34,3 +34,9 @@ I got the ALKS info from this link.
 ### Safetywissen is part of Carhs
 Got link to "IT TURNS OUT, HUMANS ARE PRETTY SMART: DEVELOPING SELF-DRIVING CARS IS HARDER THAN WE THOUGHT"
 https://www.safetywissen.com/object/A11/A11.dm97376893ua49kniw636156peid9p63736279356/safetywissen?prev=%2Fnews%2FSAFETYNEWS%2F
+
+## Autonomous vehicles
+
+* ZF: RABus | Reallabor Automatisierter Busbetrieb in Friedrichshafen und Mannheim
+
+https://www.youtube.com/watch?v=hlDmE1hMhME
