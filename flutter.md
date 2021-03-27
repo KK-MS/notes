@@ -61,3 +61,77 @@ flutter build apk --profile
 flutter build apk --release
 
 Link: https://stackoverflow.com/questions/62548438/execution-failed-for-task-applintvitalrelease-flutter
+
+## Creating
+
+Ref: https://stackoverflow.com/questions/49047411/flutter-how-to-create-a-new-project
+
+I think a better way is to create Flutter project by command line
+
+flutter create --org com.yourdomain your_app_name
+Swift, Kotlin, and androidx dependencies are the default options
+
+After just open the created project in Android Studio or in VSCode
+
+Parameter
+
+--org com.yourcompany
+will form applicationId for Android:
+
+com.yourcompany.yourappname
+and iOS PRODUCT_BUNDLE_IDENTIFIER:
+
+com.yourcompany.yourAppName
+To explore all possible parameters type
+
+flutter create --help
+Share
+Edit
+Follow
+edited Apr 12 '20 at 23:30
+answered Feb 9 '19 at 13:39
+
+Andrew
+30.5k1010 gold badges129129 silver badges9999 bronze badges
+1
+It would be great if you can also post a link to where this full command is documented. Couldn't find it anywhere. – kovac Oct 26 '19 at 7:20
+4
+@swdon just run in the terminal 'flutter create --help' All options are there – Andrew Oct 26 '19 at 16:31
+Add a comment
+
+32
+
+Here is in advance! Without android studio, you can create new project with some arguments (Option Migration androidX, Platform languages).
+
+flutter create --androidx -t app --org com.companyname.packagename -a kotlin -i swift myapp
+Explore Yourself by Flutter CLI
+
+flutter create --help
+
+--[no-]pub : Whether to run "flutter pub get" after the project has been created. (defaults to on)
+
+--[no-]offline : When "flutter pub get" is run by the create command, this indicates whether to run it in offline mode or not. In offline mode, it will need to have all dependencies already available in the pub cache to succeed.
+
+--[no-]with-driver-test : Also add a flutter_driver dependency and generate a sample 'flutter drive' test.
+
+-t, --template=≶type> : Specify the type of project to create:
+
+ [app]                (default) Generate a Flutter application.
+ [package]            Generate a shareable Flutter project containing modular Dart code.
+ [plugin]             Generate a shareable Flutter project containing an API in Dart code with a platform-specific
+                       implementation for Android, for iOS code, or for both.
+-s, --sample=≶id> : Specifies the Flutter code sample to use as the main.dart for an application. Implies --template=app. The value should be the sample ID of the desired sample from the API documentation website (http://docs.flutter.dev). An example can be found at https://master-api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html
+
+--list-samples=≶path> : Specifies a JSON output file for a listing of Flutter code samples that can created with --sample.
+
+--[no-]overwrite : When performing operations, overwrite existing files.
+
+--description The description to use for your new Flutter project. This string ends up in the pubspec.yaml file. (defaults to "A new Flutter project.")
+
+--org : The organization responsible for your new Flutter project, in reverse domain name notation. This string is used in Java package names and as prefix in the iOS bundle identifier. (defaults to "com.example")
+
+--project-name : The project name for this new Flutter project. This must be a valid dart package name.
+
+-i, --ios-language : [objc, swift (default)]
+-a, --android-language : [java, kotlin (default)]
+--[no-]androidx : Generate a project using the AndroidX support libraries
