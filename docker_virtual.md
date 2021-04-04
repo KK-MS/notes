@@ -29,7 +29,10 @@ PS C:\prj\docker>
 
 ## Virtual 
 
-differen virtual environment
+different virtual environment
 * Virtual box
 * VMWare
 * Proxmox: https://proxmox.com/en/  (From AH)
+
+## iOS emulator
+Helpfull links: https://github.com/kholia/OSX-KVM
