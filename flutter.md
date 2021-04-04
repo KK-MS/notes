@@ -5,6 +5,12 @@ By BloC author: Speaker: Felix Angelov (https://twitter.com/felangelov​)
 
 https://www.youtube.com/watch?v=knMvKPKBzGE
 
+### Cubit and BLOC
+
+https://www.youtube.com/watch?v=nc55gOsL8lc
+
+By BloC author: Speaker: Felix Angelov
+
 ## Online dartpad
 
 https://dartpad.dev/deb03027f153fd9e849c45267e8868b9?
