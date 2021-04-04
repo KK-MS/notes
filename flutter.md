@@ -1,4 +1,10 @@
 *
+
+## Bloc Library: Basics & Beyond - Felix Angelov | Flutter Europe
+By BloC author: Speaker: Felix Angelov (https://twitter.com/felangelov​)
+
+https://www.youtube.com/watch?v=knMvKPKBzGE
+
 ## Online dartpad
 
 https://dartpad.dev/deb03027f153fd9e849c45267e8868b9?
