@@ -1,6 +1,8 @@
-# docker
+# docker and virtual
 
-## Getting started
+
+## Docker
+### Getting started
 
 No containers running
 Try running a container: Copy and paste this command into your terminal and then come back
@@ -24,3 +26,10 @@ Status: Downloaded newer image for docker/getting-started:latest
 4ccac7cb17c3ed8b5c2c630b042d2ff711198c013a60bb0b270e776a4512217d
 PS C:\prj\docker>
 ```
+
+## Virtual 
+
+differen virtual environment
+* Virtual box
+* VMWare
+* Proxmox: https://proxmox.com/en/  (From AH)
