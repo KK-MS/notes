@@ -61,6 +61,21 @@ Execution failed for task ':app:lintVitalRelease'.
       > Execution failed for JetifyTransform: C:\prj\flutterapp\sx03\EvalApp\build\app\intermediates\flutter\debug\libs.jar.
          > Transform's input file does not exist: C:\prj\flutterapp\sx03\EvalApp\build\app\intermediates\flutter\debug\libs.jar. 
 
+## Error: SDK location not found.
+```
+Running Gradle task 'assembleAarRelease'... Done                   30.9s
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'permission'.
+> SDK location not found. Define location with sdk.dir in the local.properties file or with an ANDROID_HOME environment variable.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+```
 Fix:
 
 if your error says debug/libs.jar, build --debug then --release:
