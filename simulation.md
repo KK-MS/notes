@@ -15,6 +15,15 @@ https://carla.org/
 * Carla with RoS: ROS Bridge-CARLA experience (more at: https://carla.org/2020/12/22/release-0.9.11/)
 * https://www.youtube.com/watch?v=AaJekfFR1KQ : Good tutorial showing CARLA toplevel: Unreal engine and a python client to get sensor data.
 
+#### Tips
+
+Low quality mode
+```shell
+./CarlaUE4.sh -quality-level=Low
+```
+Abbrevation
+1. HUD: Head Up Display
+
 ## Autoware
 
 https://www.autoware.ai/
