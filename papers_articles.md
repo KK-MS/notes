@@ -21,6 +21,12 @@ https://www.duplichecker.com/
 ## University forums
 Forum where we can search for papers
 
+Technical university Munich:
+
+https://mediatum.ub.tum.de/
+
+E.g. https://mediatum.ub.tum.de/doc/980825/file.pdf
+
 https://www.perinorm.com/home/default.aspx?ReturnUrl=%2fsearch.aspx
 
 
