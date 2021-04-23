@@ -50,3 +50,13 @@ https://ipg-automotive.com/fileadmin/user_upload/content/Download/PDF/Articles/1
 
 ## Formula Student: Simulink® and CarMaker
 https://www.youtube.com/watch?v=M2x86MSZyXI
+
+## CarMaker and ROS
+
+### pycarmaker
+
+https://github.com/gmnvh/pycarmaker
+
+Python class to control, write and read information from CarMaker (https://ipg-automotive.com/).
+
+If you are writing your application in C, use the APO library. Here is an example: https://github.com/gmnvh/pycarmaker/tree/master/examples/C
