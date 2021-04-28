@@ -10,3 +10,7 @@ Tips:
 •	“So that”: statement should clearly indicate the targeted goal and it can be test/verified.
 •	Divide the stories between the design (indication of module, input, expected data) and its development (include testing)
 
+#### Sprint review:
+* Update master PPT ( docs/report/<module_name>_master.PPT) with incremental changes.
+* Share the incremental PPT docs/report/210429_changes.PPT
+* Demo the incremental improvements
