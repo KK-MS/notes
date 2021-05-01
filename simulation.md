@@ -14,6 +14,7 @@ https://carla.org/
 * Abour CarSim: https://www.carsim.com/products/carsim/index.php
 * Carla with RoS: ROS Bridge-CARLA experience (more at: https://carla.org/2020/12/22/release-0.9.11/)
 * https://www.youtube.com/watch?v=AaJekfFR1KQ : Good tutorial showing CARLA toplevel: Unreal engine and a python client to get sensor data.
+* Forum: https://forum.carla.org/t/step-by-step-guide-for-using-imported-custom-map-in-scenariorunner/976
 
 #### Tips
 
