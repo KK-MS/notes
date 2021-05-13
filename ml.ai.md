@@ -1,5 +1,9 @@
 # Machine learning and Artificial Intelligence
 
+check:
+
+https://machinelearningmastery.com/multiple-model-machine-learning/
+
 ## Tutorials
 
 ### Tech talks
