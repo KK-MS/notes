@@ -1,4 +1,12 @@
 *
+## Links
+
+**Book**: Python Data Science Handbook, Jake Vander Plas  
+* **PDF**: https://jakevdp.github.io/PythonDataScienceHandbook/  
+* **Github**: https://github.com/jakevdp/PythonDataScienceHandbook  
+
+**faster**: https://numba.pydata.org/  
+**coding style**: https://www.python.org/dev/peps/pep-0008/#id37  
 
 ## Unittest
 
