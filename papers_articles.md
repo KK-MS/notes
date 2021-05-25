@@ -33,3 +33,13 @@ https://www.perinorm.com/home/default.aspx?ReturnUrl=%2fsearch.aspx
 ## Usability
 
 http://www.designforusability.org/work-packages/usability-in-practice
+
+
+## Research
+
+TODO:
+
+https://www.researchgate.net/publication/345938997_Integration_of_Phase_Noise_into_a_Virtual_Test_Driving_Software_to_Investigate_the_Impact_on_the_Radar_Performance
+
+https://www.researchgate.net/publication/335715105_Automotive_Radar_Sensor_Behavioral_Models_for_Closed_Loop_Simulations
+
