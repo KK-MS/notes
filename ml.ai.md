@@ -1,5 +1,15 @@
 # Machine learning and Artificial Intelligence
 
+## Books
+
+#### FAIRNESS AND MACHINE LEARNING
+Limitations and Opportunities
+Solon Barocas, Moritz Hardt, Arvind Narayanan
+
+https://fairmlbook.org/
+
+PDF: https://fairmlbook.org/pdf/fairmlbook.pdf
+
 check:
 
 https://machinelearningmastery.com/multiple-model-machine-learning/
