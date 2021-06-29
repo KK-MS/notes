@@ -1,5 +1,7 @@
 TODO:
 
+The Rolling Stones - Sympathy For The Devil (Official Lyric Video) https://www.youtube.com/watch?v=GgnClrx8N2k
+
 https://en.wikipedia.org/wiki/Faust,_Part_One
 
 Others:
