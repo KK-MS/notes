@@ -1,4 +1,23 @@
 *
+
+## venv
+
+Virtual environment
+
+C:\prj\Training\210809-Daniel\Daniel>C:\ins\Python\Python39\python.exe -m venv ds
+
+C:\prj\Training\210809-Daniel\Daniel>source ds\Scripts\activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\prj\Training\210809-Daniel\Daniel>ds\Scripts\activate        
+
+(ds) C:\prj\Training\210809-Daniel\Daniel>python --version
+Python 3.9.2
+
+(ds) C:\prj\Training\210809-Daniel\Daniel>
+
+
 ## Links
 
 **Book**: Python Data Science Handbook, Jake Vander Plas  
