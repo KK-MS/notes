@@ -60,8 +60,48 @@ $roscd
 or
 $ cd ./catkin_ws/src/
 $ catkin_create_pkg ros_basics std_msgs rospy roscpp
-
+Created file ros_basics/package.xml
+Created file ros_basics/CMakeLists.txt
+Created folder ros_basics/include/ros_basics
+Created folder ros_basics/src
+Successfully created files in /home/cube/catkin_ws/src/ros_basics. Please adjust the ...
 ```
+* After creation, need to **compile the workspace**
+```
+~/catkin_ws/src$ cd ..
+~/catkin_ws$
+~/catkin_ws$ catkin_make
+Base path: /home/cube/catkin_ws
+. . .
+. . .
+-- BUILD_SHARED_LIBS is on
+-- -------------------------------------------------------
+-- -- traversing 1 packages in topological order:
+-- -- - ros_basics
+-- -------------------------------------------------------
+-- +++ processsing catking package: 'ros_basics'
+-- ==> add_subdirectory(ros_basics)
+-- Configuration done
+-- Generating done
+-- Build files have been written to: /home/cube/catkin_ws/build
+####
+#### Running command: "make -j4 -l4" ln "/home/cube/catking_ws/build"
+####
+~/catking_ws$
+```
+* Our project is created.
+```
+~/catkin_ws$ cd src
+~/catkin_ws/src$ ls
+CMakeLists.txt   ros_basics
+~/catkin_ws/src$ cd ros_basics
+~/catkin_ws/src/ros_basics$ ls
+include  src  CMakeLists.txt  package.xml
+~/catkin_ws/src/ros_basics$
+```
+* create a project /package space. Folders are empty and we can add our project files.
+* When opening from IDE e.g. VSCode, open from folder of catking_ws and not ros_basics.
+
 
 ## Webviz
 
