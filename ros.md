@@ -13,7 +13,9 @@
 * Not recommended to work in *default worksapce*.
 * Recommend to create our own workspace, where we put our ros projects. So that ROS code and Project code will be different from default one.
 * Our worksapce: 
-* Create workspace. see: Ros [create_a_workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+* Create workspace. 
+* see: Ros: [create_a_workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)
+* see: [ROS workspace](http://wiki.ros.org/catkin/workspaces)
 ```
 $ source /opt/ros/noetic/setup.bash
 $ mkdir -p ~/catkin_ws/src
@@ -37,13 +39,29 @@ echo $ROS_PACKAGE_PATH
 ```
 * echo $ROS_PACKAGE_PATH wil provide ROS PACKAGE PATH, in this case:
 * `/home/cube/catkin_ws/src:/opt/ros/kinetic/share`
-
+* Note: our workspace is at beginning, thus `roscd` will take to our workspace.
 
 ## ROS Package.
-* Workspace is an woring environment
+* ROS Project is called as ROS Package.
+* Workspace is an working environment
 * Package is our own individual project within our workspace environment.
+* Package is define inside the worksapce.
+* Create package:
+* We know we have folders: build, devel, src.
+* Our packages are created inside `src` folder.
+* Command: **catkin_create_pkg**
+```
+Syntax:
+catkin_create_pkg <package name> < dependencies>
+```
+* Commmands:
+```
+$roscd
+or
+$ cd ./catkin_ws/src/
+$ catkin_create_pkg ros_basics std_msgs rospy roscpp
 
-
+```
 
 ## Webviz
 
