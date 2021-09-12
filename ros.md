@@ -102,6 +102,16 @@ include  src  CMakeLists.txt  package.xml
 * create a project /package space. Folders are empty and we can add our project files.
 * When opening from IDE e.g. VSCode, open from folder of catking_ws and not ros_basics.
 
+## ROS Basic project
+* Create talker_ros_node. (Publisher)
+* Create listener_ros_node. (Subscriber)
+* Note: Above are called as nodes
+
+## ROS Commands
+* `roscore` : run the ros master core
+* `rosrun <name of package> <node>
+* `rosrun ros_basics talker_ros_node`
+* `rosrun ros_basics listener_ros_node`
 
 ## Webviz
 
