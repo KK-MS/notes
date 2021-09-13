@@ -165,7 +165,8 @@ cube$ rostopic list
 ```
 cube$ rosrun turtlesim turtlesim_node
 [ INFO] [15...]: Starting turtlesim with node name /turtlesim
-..
+```
+
 * To list nodes and topics:
 ```
 cube$ rosnode list
@@ -187,6 +188,7 @@ Reading from keyboard
 \---------------------
 Use arrrow keys to move the turtle. 'q' to quit.
 ```
+
 * in other terminal
 ```
 cube$ rosnode list
@@ -201,6 +203,7 @@ cube$ rostopic list  <- no new topics added as both node use the same.
 /turtle1/color_sensor
 /turtle1/pose
 ```
+
 * we need publisher, subscriber and a common topic.
 * To know the info about node.
 ```
@@ -220,6 +223,7 @@ Servcies:
  * /clear
  * /kill
 ```
+
 * To know about the topic
 ```
 cube$ rostopic info /turtle1/cmd_vel
@@ -231,6 +235,7 @@ Publishers:
 Subscribers:
  * /turtlesim (http://ubuntu:37069)
 ```
+
 ## Webviz
 
 Visualizing robotics data in the browser
