@@ -107,11 +107,58 @@ include  src  CMakeLists.txt  package.xml
 * Create listener_ros_node. (Subscriber)
 * Note: Above are called as nodes
 
+## ROS Working 1.0
+* First node in ROS to start is `roscore`
+* Than subscriber
+* The subscriber will register itself to master and provide informations about itself.
+* E.g. subscriber node: turtlesim_node @ http://192.168.0.50:40044
+```
+Subscriber node info:
+/turtlesim,
+/turtel1/cmd_vel,
+geometry_msg/Twist,
+http://192.168.0.50:40044
+```
+* The publisher is unidirection. It also register with its information.
+* E.g. Publisher node turtle_teleop_node @ http://192.168.0.50:40048
+```
+Publisher node info:
+/teleop_turtle,
+/turtel1/cmd_vel,
+geometry_msg/Twist,
+http://192.168.0.50:40048
+```
+* Both register to Master and master will provide necessary info for them to communicate.
+* Note: Publisher and Subscriber will have direct communication.
+* Meassage passed from Publisher to Subscriber. Here: /turtle1/cmd_vel (velocity)
+
 ## ROS Commands
 * `roscore` : run the ros master core
-* `rosrun <name of package> <node>
+* `rosrun` \<name of package\> \<node\>
 * `rosrun ros_basics talker_ros_node`
 * `rosrun ros_basics listener_ros_node`
+* `rosnode list`: List of nodes in a ROS computation graph, i.e that are running in ROS ecosystem.
+* `rostopic list`: List of topics in a ROS compuation graph.
+* 
+## ROS log
+* `roscore`: points to note in log. version, url, name (rosout)
+```
+PARAMETERS
+ * /rosdistro: noetic
+ * /rosversion: 1.15.8
+ROS_MASTER_URI=http://ubuntu:40020
+...
+started core service [/rosout]
+```
+* `rosnode list` and `rostopic list`: When only roscore is running,
+```
+cube$ rosnode list
+/rosout
+cube$ rostopic list
+/rosout
+/rosout_agg
+```
+* 
 
 ## Webviz
 
