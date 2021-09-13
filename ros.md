@@ -140,8 +140,21 @@ http://192.168.0.50:40048
 * `rosnode list`: List of nodes in a ROS computation graph, i.e that are running in ROS ecosystem.
 * `rostopic list`: List of topics in a ROS compuation graph.
 * `rosrun \<ROS Package name\> \<ROS Node name\>`
-* `rosnode info \<node name\>
-* `rostopic info \<topic name\>
+* `rosnode info \<node name\>`  e.g. rosnode info /turtlesim
+* `rostopic info \<topic name\>` e.g. rostopic info /turtle1/cmd_vel
+* `rosmsg show \<message name\>` e.g. rosmsg show geometry_msgs/Twist
+* `rostopic pub -r \<repeat count\> \<topic name\> \<message type\> '\<json data\>' e.g.
+```
+rostopic pub -r 10 /turtle1/cmd_vel geometry_msgs/Twist '{linear: {x: 0.1, y:0.0, z:0.0}, angular:{x:0.0, y:0.0, z:0.0}}'
+```
+* `rosrun rqt_graph rqt_graph`: Summmarize ROS ecosystem graphically.
+
+## ROS Topic
+* Topic names in general follow format: \<ROS package name\>/\<ROS Message name in this package\>
+* Package name is the folder where the folder is located.
+* Message name is the file in that folder `package_name/msg` folder
+* E.g. `geometry_msgs/Twist` has file under folder: `geometry_msgs/msg/Twist.msg`
+
 ## ROS log
 * `roscore`: points to note in log. version, url, name (rosout)
 ```
@@ -234,6 +247,34 @@ Publishers:
 
 Subscribers:
  * /turtlesim (http://ubuntu:37069)
+```
+
+* To know about message
+```
+cube$ rosmsg show geometry_msgs/Twist
+geometry_msgs/Vector3 linear
+  float64 x
+  float64 y
+  float64 z
+geometry_msgs/Vector3 angular  
+  float64 x
+  float64 y
+  float64 z
+  
+cube$ rosmsg show geometry_msgs/Pose
+geometry_msgs/Point position
+  float64 x
+  float64 y
+  float64 z
+geometry_msgs/Quaternion orientation  
+  float64 x
+  float64 y
+  float64 z
+  float64 w
+```  
+* ROS publishing via command line
+```
+cube$ rostopic pub -r 10 /turtle1/cmd_vel geometry_msgs/Twist '{linear: {x: 0.1, y:0.0, z:0.0}, angular:{x:0.0, y:0.0, z:0.0}}'
 ```
 
 ## Webviz
