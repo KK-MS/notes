@@ -139,8 +139,9 @@ http://192.168.0.50:40048
 * `rosrun ros_basics listener_ros_node`
 * `rosnode list`: List of nodes in a ROS computation graph, i.e that are running in ROS ecosystem.
 * `rostopic list`: List of topics in a ROS compuation graph.
-* `rosrun \<ROS Package name\> \<ROS Node name\>
-* 
+* `rosrun \<ROS Package name\> \<ROS Node name\>`
+* `rosnode info \<node name\>
+* `rostopic info \<topic name\>
 ## ROS log
 * `roscore`: points to note in log. version, url, name (rosout)
 ```
@@ -201,7 +202,35 @@ cube$ rostopic list  <- no new topics added as both node use the same.
 /turtle1/pose
 ```
 * we need publisher, subscriber and a common topic.
+* To know the info about node.
+```
+cube$ rosnode info /turtlesim
+\---------
+\---------
+Node \[/turtlesim\]
+Publications:
+ * /rosout \[rosgraph_msgs/Log\]
+ * /turtle1/color_sensor \[turlesim/Color\]
+ * /turtle1/pose \[turtlesim/Pose\]
 
+Subscriptions:
+ * /turtle1/cmd_vel \[geometry_msgs/Twist\]
+
+Servcies:
+ * /clear
+ * /kill
+```
+* To know about the topic
+```
+cube$ rostopic info /turtle1/cmd_vel
+Type: geometry_msgs/Twist
+
+Publishers:
+ * /teleop_turtle (http://ubuntu:33151)
+
+Subscribers:
+ * /turtlesim (http://ubuntu:37069)
+```
 ## Webviz
 
 Visualizing robotics data in the browser
