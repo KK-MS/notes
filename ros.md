@@ -139,6 +139,7 @@ http://192.168.0.50:40048
 * `rosrun ros_basics listener_ros_node`
 * `rosnode list`: List of nodes in a ROS computation graph, i.e that are running in ROS ecosystem.
 * `rostopic list`: List of topics in a ROS compuation graph.
+* `rosrun \<ROS Package name\> \<ROS Node name\>
 * 
 ## ROS log
 * `roscore`: points to note in log. version, url, name (rosout)
@@ -158,7 +159,48 @@ cube$ rostopic list
 /rosout
 /rosout_agg
 ```
-* 
+* `rosrun turtlesim turtlesim_node. Note name of node: /turtlesim
+* rosnode list will show new node
+```
+cube$ rosrun turtlesim turtlesim_node
+[ INFO] [15...]: Starting turtlesim with node name /turtlesim
+..
+* To list nodes and topics:
+```
+cube$ rosnode list
+/rosout
+/turtlesim  <- new node corresponds to turtlesim_node
+cube$ 
+cube$ 
+cube$ rostopic list
+/rosout
+/rosout_agg
+/turtle/cmd_vel          <- 3 new topics from turtlesim_node
+/turtle/color_sensor
+/turtle/pose
+```
+* Ros another node, keyboard events. That is a publisher
+```
+cube$ rosrun turtlesim turtle_teleop_node
+Reading from keyboard
+\---------------------
+Use arrrow keys to move the turtle. 'q' to quit.
+```
+* in other terminal
+```
+cube$ rosnode list
+/rosout
+/teleop_turtle  <- new node.
+/turtlesim
+cube$
+cube$ rostopic list  <- no new topics added as both node use the same.
+/rosout
+/rosout_agg
+/turtle1/cmd_vel
+/turtle1/color_sensor
+/turtle1/pose
+```
+* we need publisher, subscriber and a common topic.
 
 ## Webviz
 
