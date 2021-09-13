@@ -143,7 +143,7 @@ http://192.168.0.50:40048
 * `rosnode info \<node name\>`  e.g. rosnode info /turtlesim
 * `rostopic info \<topic name\>` e.g. rostopic info /turtle1/cmd_vel
 * `rosmsg show \<message name\>` e.g. rosmsg show geometry_msgs/Twist
-* `rostopic pub -r \<repeat count\> \<topic name\> \<message type\> '\<json data\>' e.g.
+* `rostopic pub -r \<repeat count\> \<topic name\> \<message type\> '\<json data\>'` e.g.
 ```
 rostopic pub -r 10 /turtle1/cmd_vel geometry_msgs/Twist '{linear: {x: 0.1, y:0.0, z:0.0}, angular:{x:0.0, y:0.0, z:0.0}}'
 ```
@@ -276,6 +276,11 @@ geometry_msgs/Quaternion orientation
 ```
 cube$ rostopic pub -r 10 /turtle1/cmd_vel geometry_msgs/Twist '{linear: {x: 0.1, y:0.0, z:0.0}, angular:{x:0.0, y:0.0, z:0.0}}'
 ```
+* Show ROS Computation graph
+```
+cube$ rosrun rqt_graph rqt_graph
+```
+<img src="./assets/imgs/ros_rosrun_rqt_graph.png" alt="Ros QT graph rqt_graph" width="150"/>
 
 ## Webviz
 
