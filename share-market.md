@@ -18,4 +18,18 @@ What is there FaceValue? Rs. 2. Thus if 100%, we get Rs. 2.
 2. Face Value: The original price at which promotors brought it, that is who start the company.
 3. Promotors: The promotor is a person who starts the company.
 4. Could there be a multiple promotors? Yes.
+5. Say, we want to start a company and now people have given 1-Lakh, now what is there proof? If this people have invested in bank, they would get interest, now same what will they get here? They will get divident as a share holder.
+6. To get divident they need to be share holder. They will get Share certificate, name of the person, what worth of ruppes they had got the shares.
+7. Who decides FV, it is a company/promotors. It can be different for different company. 
+8. For 1-lakh, Certiface:
+* Name:
+* FV: Rs. 2.
+* No. of share: 50000
+9. Now a days do we get certificate? or is there physical certificates? Yes. 
+10. Why not in Demat?
+11. If they entry in share
 
+
+### References:
+1. https://www.youtube.com/watch?v=Xn7KWR9EOGQ
+2. 
