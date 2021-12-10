@@ -41,6 +41,11 @@ https://www.youtube.com/watch?v=_hKvS6xTC0E
 
 https://www.youtube.com/watch?v=98DXe3uKwfc
 
+8. What is aquaplaning in driving?
+
+When driving on wet roads at high speed, a wedge of water can build up between the tyre and the road surface. The tyre loses road contact, and the vehicle is no longer responsive to steering. This phenomenon is known as aquaplaning or hydroplaning
+
+https://www.youtube.com/watch?v=kRlNC6ZTn3g
 
 ## Standards:
 
