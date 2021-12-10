@@ -7,6 +7,12 @@ https://itstillruns.com/asr-cars-12199286.html
 
 check home link for more topics.
 
+2. overrun brake
+
+https://www.kfz-tech.de/Engl/Biblio/Anhaenger/AuflBremseR.htm
+
+https://www.youtube.com/watch?v=c7Ql70Z-mdY
+
 ## Standards:
 
 ### ECE regulations
