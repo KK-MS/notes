@@ -33,6 +33,15 @@ The brake system on a commercial vehicle is basically subdivided into four funct
 
 **Serivce brake**: It is foot brake, the basic brake.  https://www.infobloom.com/what-is-the-service-brake.htm
 
+6. Why you should not PARTIALLY press the Clutch ? By Lesics, anim
+
+https://www.youtube.com/watch?v=_hKvS6xTC0E
+
+7. Understanding Anti-lock Braking System (ABS) ! By Lesics, anim
+
+https://www.youtube.com/watch?v=98DXe3uKwfc
+
+
 ## Standards:
 
 ### ECE regulations
