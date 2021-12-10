@@ -13,6 +13,26 @@ https://www.kfz-tech.de/Engl/Biblio/Anhaenger/AuflBremseR.htm
 
 https://www.youtube.com/watch?v=c7Ql70Z-mdY
 
+3. Launch automative transmission car.
+
+https://www.youtube.com/watch?v=Mig14z78MbY
+
+4. Gear Selector In An Automatic Car-Driving Lesson
+
+https://www.youtube.com/watch?v=HLRm1o9lmw4
+
+https://www.paradigital.net/8vfl/ba/page_00213.htm
+
+**Selector lever**: Gear lever is also called **Selector lever**
+
+5. Serivce brake:
+
+https://www.mantruckandbus.com/en/company/glossar/service-braking-system.html
+
+The brake system on a commercial vehicle is basically subdivided into four functional areas: the service braking system, secondary braking system, parking braking system and endurance braking system. 
+
+**Serivce brake**: It is foot brake, the basic brake.  https://www.infobloom.com/what-is-the-service-brake.htm
+
 ## Standards:
 
 ### ECE regulations
