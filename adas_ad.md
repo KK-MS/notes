@@ -43,6 +43,10 @@ https://www.youtube.com/watch?v=98DXe3uKwfc
 
 8. What is aquaplaning in driving?
 
+Aquaplaning or hydroplaning is most likely to occur when there is a buildup of heavy rainfall on the surface of the road. It can also happen when the tarmac of the road is so uneven as to cause large puddles of standing water to collect
+
+https://www.continental-tires.com/car/tire-knowledge/driving-situations/aquaplaning
+
 When driving on wet roads at high speed, a wedge of water can build up between the tyre and the road surface. The tyre loses road contact, and the vehicle is no longer responsive to steering. This phenomenon is known as aquaplaning or hydroplaning
 
 https://www.youtube.com/watch?v=kRlNC6ZTn3g
