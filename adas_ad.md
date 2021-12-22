@@ -1,5 +1,11 @@
 # ADAS/AD related info
 
+## ICON
+
+ISO 7000 Graphical symbols for use on equipment
+
+https://www.iso.org/obp/ui/#iso:pub:PUB400001:en
+
 ## Car
 
 1. ASR:
