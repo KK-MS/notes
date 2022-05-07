@@ -1,5 +1,9 @@
-# ROS
+# ROS2
 
+1. Installation: https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
+
+
+# ROS 1
 ## ROS Workspace: 
 * So the workspace represents the working area and any workspace would have a special file that is called `setup`.
 * We have setup.bash and setup.sh for a different type of shells.
