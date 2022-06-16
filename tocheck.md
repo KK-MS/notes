@@ -2,6 +2,12 @@
 
 ### 14.1.22.
 
+gRPC
+
+* https://grpc.io/
+* Dart package: https://pub.dev/documentation/grpc/latest/
+
+
 PlotNeuralNet
 
 https://github.com/HarisIqbal88/PlotNeuralNet
