@@ -8,6 +8,7 @@
 * Grafana Labs is an open-source data visualization and analytics tool that is distributed on the AGPL 3.0 license.
 * one of the best open-source `data visualization` + best in the `data analytics` sector.
 * Github: https://github.com/grafana/grafana
+* Video: https://grafana.com/go/webinar/getting-started-with-grafana/?pg=docs-grafana&plcmt=footer-resources-1
 
 ### D3
 * D3.js is an open-source JavaScript library used for visualizing and analyzing data
