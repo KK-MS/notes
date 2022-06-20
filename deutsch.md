@@ -15,5 +15,6 @@ https://www.ardmediathek.de/video/berichte-vom-tage/gustaf-gruendgens-ueber-den-
 https://www.ndr.de/fernsehen/sendungen/kulturjournal/Tabu-Wechseljahre-Nicht-mit-uns,kulturjournal8084.html
 
 | DE | EN|
+|---|---|
 |rechnet | calculates|
 | gerechnet| expected|
