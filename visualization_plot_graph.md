@@ -1,4 +1,10 @@
-# To Plot
+# Visualization, plot, graph
+
+## Books:
+1. https://clauswilke.com/dataviz/proportional-ink.html
+Fundamentals of Data Visualization
+Claus O. Wilke
+2. 
 
 ### Kibana : Free
 Kibana: from Elastic co.
