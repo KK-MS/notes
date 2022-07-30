@@ -1,4 +1,8 @@
 
+## Books
+* Great Python Cheat Sheet I found:
+https://www.linkedin.com/posts/mengyaowang11_python-cheat-sheet-activity-6876776856129937408-gaUl?utm_source=linkedin_share&utm_medium=member_desktop_web
+
 
 ## site-packages
 * https://stackoverflow.com/questions/31384639/what-is-pythons-site-packages-directory
