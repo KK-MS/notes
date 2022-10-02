@@ -1,6 +1,9 @@
 # notes
 Notes on technical and non-technical. Made public to obtain comments and for benefits of others
 
+### Youtube
+* [Blockchain - DappUniversit](https://www.youtube.com/c/DappUniversity)
+
 ### Interesting link
 * [Digital-India](https://www.linkedin.com/company/digital-india/)
 * [Tower farmering **](https://www.linkedin.com/posts/raghuvamsha-arjun-chetty-b3974760_introducing-the-tower-garden-learn-more-activity-6951879458144272384-UebQ?utm_source=linkedin_share&utm_medium=member_desktop_web)
