@@ -47,3 +47,8 @@
 * Search
 * News
 * Home
+
+### NI
+Video on modularity:
+
+https://players.brightcove.net/pages/v1/index.html?accountId=1326282160001&playerId=2e63b63e-02d2-4d43-84ba-0a0adb5074d0&videoId=5978215367001&autoplay=true
