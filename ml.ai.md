@@ -77,3 +77,8 @@ Supported by Qualcomm!
 
 #sensing #communications #deeplearning #dataset #6g
 ``
+
+## Data science
+* 32 datasets to uplift your skills in data science
+* https://datasciencedojo.com/blog/datasets-data-science-skills/?utm_campaign=DSD%20blogs%202022&utm_content=223545409&utm_medium=social&utm_source=twitter&hss_channel=tw-1318985240
+* see image 221016-datasets-3-datasciencedojo.jfif
