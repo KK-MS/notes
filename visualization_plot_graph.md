@@ -56,3 +56,11 @@ https://rigorousthemes.com/blog/best-open-source-data-visualization-tools/
 ## Mermaid
 
 https://mermaid-js.github.io/mermaid/#/c4c
+
+## 3D Model
+### OpenSCAD
+* https://www.sculpteo.com/en/glossary/openscad-definition/
+* Tutorial: https://www.sculpteo.com/en/tutorial/openscad-prepare-your-model-3d-printing/create-your-own-3d-object/
+* Cheetsheet: https://www.sculpteo.com/media/imagecontent/openscad_img_23.jpg
+* GUI Win: https://www.sculpteo.com/en/tutorial/openscad-prepare-your-model-3d-printing/openscad-user-interface/
+
