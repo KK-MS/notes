@@ -19,6 +19,11 @@ https://machinelearningmastery.com/multiple-model-machine-learning/
 
 ## Tutorials
 
+### Github ***
+* https://github.com/dair-ai/ML-Course-Notes
+* A place to collaborate and share course notes on all topics related to machine learning, NLP, and AI.
+* Contains VIDEOS, NOTES,
+
 ### Tech talks
 * Tesla autonomy neural networks How AI neural networks function in Tesla: https://www.youtube.com/watch?v=eZOHA6Uy52k
   * Vision is needed. Others are optional.
