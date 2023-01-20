@@ -1,4 +1,7 @@
 # Machine learning and Artificial Intelligence
+
+|[OpenGPT](#opengpt)|
+
 ## Papers/post
 * DeepSense 6G comprises more than 1 million co-existing multi-modal sensing and communication data points, including various types of sensors. [DeepSense 6G ](https://www.linkedin.com/posts/ahmed-alkhateeb-5a363464_sensing-communications-deeplearning-ugcPost-6912055432266088449-hk-j?utm_source=linkedin_share&utm_medium=member_desktop_web)
 * #AI .... today next step ... i made experiment with RoIAlignRotated (Oriented R-CNN) on drone footage - rotated bounding boxes in action ... - object detection with RoIAlignRotated. Do you like it? [Link: Parking](https://www.linkedin.com/posts/remigiusz-kinas_ai-pytorch-ai-activity-6912792903987679232-mvgo?utm_source=linkedin_share&utm_medium=member_desktop_web)
@@ -16,6 +19,8 @@ PDF: https://fairmlbook.org/pdf/fairmlbook.pdf
 check:
 
 https://machinelearningmastery.com/multiple-model-machine-learning/
+
+## OpenGPT
 
 ## Tutorials
 
