@@ -20,7 +20,23 @@ check:
 
 https://machinelearningmastery.com/multiple-model-machine-learning/
 
-## OpenGPT
+## OpenAI
+* https://openai.com/
+* https://openai.com/blog/openai-api/
+  * ChatGPT
+  * DALL·E 2
+* Overview https://openai.com/api/
+  * Build next-gen apps with OpenAI’s powerful models.
+  * GPT: Access GPT-3, which performs a variety of natural language tasks, Codex, which translates natural language to code,
+  * DALL·E, which creates and edits original images. 
+  * Pricing: https://openai.com/api/pricing/
+### OpenGPT
+* https://en.wikipedia.org/wiki/ChatGPT
+* Microsoft is looking at OpenAI’s GPT for Word, Outlook, and PowerPoint.
+  * [MS OpenGPT](https://www.theverge.com/2023/1/9/23546144/microsoft-openai-word-powerpoint-outlook-gpt-integration-rumor)
+  * Microsoft purchased an exclusive license to the underlying technology behind GPT-3 in 2020 after investing $1 billion into OpenAI in 2019
+  * add an AI text-to-image model to Bing powered by OpenAI’s DALL-E 2.
+  * 
 
 ## Tutorials
 
