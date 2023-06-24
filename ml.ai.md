@@ -41,11 +41,11 @@ https://machinelearningmastery.com/multiple-model-machine-learning/
 * https://www.linkedin.com/feed/update/urn:li:activity:7077265082551848960?utm_source=share&utm_medium=member_desktop
 * 5 trusted websites for open datasets, in 30s
 
-1) data.nasdaq.com
-2) earthdata.nasa.gov
-3) opendata.cern.ch
-4) catalog.data.gov
-5) data.fivethirtyeight.com
+1) [data.nasdaq.com](https://data.nasdaq.com/)
+2) [earthdata.nasa.gov](https://www.earthdata.nasa.gov/): The Earth Science Data Systems (ESDS) Program provides full and open access to NASA’s collection of Earth science data for understanding and protecting our home planet.
+3) [opendata.cern.ch](http://opendata.cern.ch/)  Explore more than three petabytes of open data from particle physics!
+4) [catalog.data.gov](https://catalog.data.gov/dataset) U.S. Government's Open Data
+5) [data.fivethirtyeight.com](https://data.fivethirtyeight.com/) : data and code behind some of our articles and graphics.
 
 Top 5 helpful Data Science & AI learning channels, in 30s
 https://lnkd.in/gc5JARwQ
