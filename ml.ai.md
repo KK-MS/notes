@@ -30,6 +30,7 @@ https://machinelearningmastery.com/multiple-model-machine-learning/
   * GPT: Access GPT-3, which performs a variety of natural language tasks, Codex, which translates natural language to code,
   * DALL·E, which creates and edits original images. 
   * Pricing: https://openai.com/api/pricing/
+ 
 ### OpenGPT
 * https://en.wikipedia.org/wiki/ChatGPT
 * Microsoft is looking at OpenAI’s GPT for Word, Outlook, and PowerPoint.
@@ -56,6 +57,34 @@ https://lnkd.in/gCyVFW9K
 For downloadable ML/ AI/ Data Science learning materials, please check my previous posts.
 
 I share my learning journey into Data Science with my amazing LinkedIn friends, click follow and let's grow together! Alex Wang
+
+
+## AI tools
+* Ref: https://www.linkedin.com/feed/update/urn:li:activity:7072052054545809408?utm_source=share&utm_medium=member_desktop
+
+📍 ChatGPT Solves Anthing - https://chat.openai.com
+
+📍 Writesonic Writes Anything - https://lnkd.in/dbKtMMaE
+
+📍 Midjourney Generates Art - https://lnkd.in/d7GnGvHK
+
+📍 Replit Generates Code - https://lnkd.in/dN-KjHEG
+
+📍 Synthesia Generates Video - https://www.synthesia.io
+
+📍 Soundraw Generates Music - https://soundraw.io/
+
+📍 Fliki Generates Tiktoks - https://fliki.ai/
+
+📍 Starry Generates Avatars - https://lnkd.in/dh_VCdFN
+
+📍 SlidesAI.io Generates PPT - https://www.slidesai.io/
+
+📍 Remini Edit Pictures - https://remini.ai/
+
+📍 Pictory Edit Videos - https://pictory.ai/
+
+📍 Wordtune Summarize Notes - https://www.wordtune.com/
 
 ## Tutorials
 
