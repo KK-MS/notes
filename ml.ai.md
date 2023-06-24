@@ -37,6 +37,25 @@ https://machinelearningmastery.com/multiple-model-machine-learning/
   * Microsoft purchased an exclusive license to the underlying technology behind GPT-3 in 2020 after investing $1 billion into OpenAI in 2019
   * add an AI text-to-image model to Bing powered by OpenAI’s DALL-E 2.
   * 
+## Data sets
+* https://www.linkedin.com/feed/update/urn:li:activity:7077265082551848960?utm_source=share&utm_medium=member_desktop
+* 5 trusted websites for open datasets, in 30s
+
+1) data.nasdaq.com
+2) earthdata.nasa.gov
+3) opendata.cern.ch
+4) catalog.data.gov
+5) data.fivethirtyeight.com
+
+Top 5 helpful Data Science & AI learning channels, in 30s
+https://lnkd.in/gc5JARwQ
+
+5 self-study resources for Machine Learning and Data Science, in 30s
+https://lnkd.in/gCyVFW9K
+
+For downloadable ML/ AI/ Data Science learning materials, please check my previous posts.
+
+I share my learning journey into Data Science with my amazing LinkedIn friends, click follow and let's grow together! Alex Wang
 
 ## Tutorials
 
