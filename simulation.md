@@ -1,6 +1,9 @@
 # Simulation
 
 paper, tips, notes.
+## 31.08.2023
+* https://www.linkedin.com/feed/update/urn:li:activity:7102893637306339329?utm_source=share&utm_medium=member_desktop
+* CarMaker, Sumo, etc.
 
 ## PMSF
 
