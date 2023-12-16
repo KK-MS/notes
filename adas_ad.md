@@ -5,6 +5,8 @@
 * https://odrviewer.io/
 * https://github.com/esmini/esmini
 
+## Articles
+* [How to Successfully Implement Over-The-Air Software Updates With AUTOSAR Classic | Part II](https://www.linkedin.com/pulse/how-successfully-implement-over-the-air-software-updates-autosar-md5ve/?midToken=AQEonC9k5aJE0g&midSig=2hBHi45SUt0H41&trk=eml-email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_&trkEmail=eml-email_series_follow_newsletter_01-newsletter_content_preview-0-readmore_button_-null-48217s~lq6ubvhg~7c-null-null&eid=48217s-lq6ubvhg-7c&otpToken=MTAwMDFiZTMxYjI4Y2NjNmI0MjQwNGVkNDYxY2UxYjE4OGM5ZDY0MjkxYWE4ZjYxNzdjZTA2NmU0YjVhNWJmMmY1ZGZhMTkwMTNkOGYzZjg0MGFlZDI4NWQ0NDdiZWJlMDlhZGJlNDUzNGM0ODE4NDU2YjYsMSwx)
 
 ## ICON
 
