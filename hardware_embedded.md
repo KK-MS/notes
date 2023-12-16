@@ -9,6 +9,7 @@
 
 ## Embedded_market
 * Why embedded? trends?. Major need in multimedia: https://embeddedcomputing.com/application/consumer/smart-home-tech/optimizing-embedded-software-real-time-multimedia-processing
+* Embedded companies list: https://www.linkedin.com/smart-links/AQEzZPvpRxOdIQ/38b296ec-e54a-4f95-bff2-d6417fc1f494
 
 ## Logger
 * https://www.google.com/search?q=aim+evo+5&rlz=1C1CHBF_deDE931DE931&oq=aim+evo+&aqs=chrome.1.69i57j0l4j0i10l5.8352j0j7&sourceid=chrome&ie=UTF-8
