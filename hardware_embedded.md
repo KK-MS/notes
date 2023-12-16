@@ -1,10 +1,14 @@
 # Hardware
 
 ## Table of content
+* [Embedded_market_trends](#embedded_market)
 * [Logger](#logger)
 * [Racing](#racing)
 * [Beckhoff](#beckhoff)
 * [NI](#ni)
+
+## Embedded_market
+* Why embedded? trends?. Major need in multimedia: https://embeddedcomputing.com/application/consumer/smart-home-tech/optimizing-embedded-software-real-time-multimedia-processing
 
 ## Logger
 * https://www.google.com/search?q=aim+evo+5&rlz=1C1CHBF_deDE931DE931&oq=aim+evo+&aqs=chrome.1.69i57j0l4j0i10l5.8352j0j7&sourceid=chrome&ie=UTF-8
