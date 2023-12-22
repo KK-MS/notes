@@ -12,9 +12,9 @@
 * Stage 2: Design and Develop The Product
   * Design: Once we are certain that everyone is literally on the same page, we will custom design a solution for you. Depending on the requirements, that may involve designing a new website for you, or designing a social media marketing plan to suit.
   * Develop: Next step in the process is to develop the specific custom solution for you. This may mean developing a wire-frame version of your new website, or developing a step by step plan for your social media marketing.
-* Stage 3: Deploy and Deliver The Product
+* Stage 3: Deploy and Deliver / Drive The Product
   * Deploy: This is where everything starts to get real for you, the client. We will deploy a live version of your solution, so that you can see first-hand how the solution will work, honk the horn and ring the bells.
-  * Deliver: Once we are satisfied that you are delighted with your new solution, and only then, will we hand you the keys.
+  * Deliver / Drive: Once we are satisfied that you are delighted with your new solution, and only then, will we hand you the keys.
     * _But we don’t just hand you the keys and let you drive off into the sunset, we will work with you so that you and your staff are all completely familiar with the solution, and are happy to recommend us to your friends!_
 
 ### ICONS
