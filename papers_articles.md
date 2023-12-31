@@ -1,5 +1,9 @@
 | [Checklist](#checklist) | [Plagiarism](#plagiarism) | [Forums](#university-forums) | [Usability](#usability)|
 
+## Tools
+* https://quillbot.com/  restructure the sentences, etc.
+* Also check grammerly
+
 ## Checklist
 
 1. Research paper in statements of PPT
