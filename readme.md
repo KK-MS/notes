@@ -1,6 +1,10 @@
 # notes
 Notes on technical and non-technical. Made public to obtain comments and for benefits of others
 
+### Magazine
+* https://www.yumpu.com/de/document/read/68640589/allgauer-wirtschaftsmagazin-ausgabe-1-2024/22
+* Online German magazine
+
 ### Youtube
 * [Blockchain - DappUniversit](https://www.youtube.com/c/DappUniversity)
 
