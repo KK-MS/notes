@@ -1,4 +1,8 @@
-| [Variable reference](#variable-reference) | [CPP](#cpp) | [nodejs](#nodejs) | [vcpkg](#vcpkg) |
+| [Shortcut](#shortcut)| [Variable reference](#variable-reference) | [CPP](#cpp) | [nodejs](#nodejs) | [vcpkg](#vcpkg) |
+
+## Shortcut
+* https://superuser.com/questions/1569067/how-to-close-explorer-via-shortcut-in-vs-code
+  * ctrl+B (set key for `View: Close Primary Side Bar`, remove shortcut key from VIM )
 
 ## Variable reference
 
