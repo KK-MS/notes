@@ -18,3 +18,6 @@ Phone  +49 (0)800 4555530
 Fax  +49 (0)831 2056-910695
 
 Email Familienkasse-Bayern-Sued.Standort-Kempten@arbeitsagentur.de
+
+## Schufa
+https://www.meineschufa.de/de/datenkopie
