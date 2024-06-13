@@ -1,5 +1,8 @@
 ## Linux commands
 
+## BSP, Bootloader
+##### 1. DTS, DTB, DTC
+Device Tree Source (DTS) files are simple text files that can be compiled into a binary Device Tree Blob (DTB) (or device tree binaries (DTBs)) format using the Device Tree Compiler (DTC) tool.
 
 ## Ubuntu 20.04
 1. Error:
