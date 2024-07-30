@@ -15,7 +15,12 @@
   * in such a way that these resources deliver all the work required to complete a project.
   * within define scope, time, and cost constraints.
   * Thus first challenge of Project Management is ensuring that a project is delivered within the defined contraints.
-  * Project manager worry on 1. Resources (People + materials), 2. Money / cost, 3. Time / schedule.
+* **Project manager** worry on: 
+  1. Resources (People + materials), 
+  2. Money / cost, 
+  3. Time / schedule.
 
 
 
+#### References
+1. [Embedded Systems - Project Management](https://www.youtube.com/watch?v=V3zBMnCa8Hw)
