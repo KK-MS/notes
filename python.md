@@ -52,6 +52,28 @@ Useful reading
 * [Installing Python Modules (for Python 2)](https://docs.python.org/2/install/)
 * [Installing Python Modules (for Python 3)](https://docs.python.org/3/install/)
 
+#### Package version
+* To know version of package via command line
+* Use command `pip list` and look for package
+  ```
+  pip list 
+  Package                   Version
+  ------------------------- -----------
+  certifi                   2024.12.14
+  charset-normalizer        3.4.1
+  contourpy                 1.3.0
+  cycler                    0.12.1
+  ...
+  matplotlib                3.7.1
+  numpy                     1.26.4
+  open-simulation-interface 3.7.0
+  ...
+  ```
+* Helpful to run code via command line, or when we get errors like: `ERROR: No matching distribution found for numpy<3.0.0,>=2.1.1`
+  ```py
+  PS C:\hsk\01_fasim\osi3test> python -c "import numpy; print(numpy.version.version)"
+  1.26.4
+  ```
 
 ## venv
 
