@@ -3,6 +3,36 @@
 * Great Python Cheat Sheet I found:
 https://www.linkedin.com/posts/mengyaowang11_python-cheat-sheet-activity-6876776856129937408-gaUl?utm_source=linkedin_share&utm_medium=member_desktop_web
 
+### Install files
+* Installed files are at `path_to_virtualenv>/lib/python<version>/site-packages/` or ` /usr/local/lib/python<version>/site-packages/`
+* To know location of the `site-packages`, use command `python -m site`
+* Also see section [site-packages](#site-packages)
+<details> <summary> click for more info on installed files </summary>
+
+When you run `pip install .` in a directory containing a Python package (usually with a `setup.py` file), the package is installed into the Python environment's site-packages directory. Here's a breakdown of what happens:
+
+1. **Local Environment**: If you are using a virtual environment, the package will be installed in the `site-packages` directory of that virtual environment. This is typically located at:
+   ```
+   <path_to_virtualenv>/lib/python<version>/site-packages/
+   ```
+
+2. **Global Environment**: If you are not using a virtual environment, the package will be installed in the global Python environment's `site-packages` directory. This is typically located at:
+   - On Linux and macOS:
+     ```
+     /usr/local/lib/python<version>/site-packages/
+     ```
+   - On Windows:
+     ```
+     C:\Python<version>\Lib\site-packages\
+     ```
+
+You can find the exact location of the `site-packages` directory by running the following Python command:
+```sh
+python -m site
+```
+This command will list all the site directories, including the `site-packages` directory where the installed packages are stored.
+
+</details>
 
 ## site-packages
 * https://stackoverflow.com/questions/31384639/what-is-pythons-site-packages-directory
