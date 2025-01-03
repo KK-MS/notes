@@ -3,7 +3,7 @@
 * Great Python Cheat Sheet I found:
 https://www.linkedin.com/posts/mengyaowang11_python-cheat-sheet-activity-6876776856129937408-gaUl?utm_source=linkedin_share&utm_medium=member_desktop_web
 
-### Install files
+### Installed files
 * Installed files are at `path_to_virtualenv>/lib/python<version>/site-packages/` or ` /usr/local/lib/python<version>/site-packages/`
 * To know location of the `site-packages`, use command `python -m site`
 * Also see section [site-packages](#site-packages)
@@ -74,6 +74,43 @@ Useful reading
   PS C:\hsk\01_fasim\osi3test> python -c "import numpy; print(numpy.version.version)"
   1.26.4
   ```
+
+### Package creation
+* Error: only dist-info is created and not the module itself?
+When `pip install .` only creates a `.dist-info` folder and not the actual package folder, it usually indicates an issue with the package setup. Here are some common reasons and solutions:
+
+1. **Missing `__init__.py`**: Ensure that your package directory contains an `__init__.py` file. This file is necessary for Python to recognize the directory as a package.
+
+2. **Incorrect `setup.py` Configuration**: Check your `setup.py` file to ensure it is correctly configured. The `packages` argument in `setup()` should include the package directory. For example:
+   ```python
+   from setuptools import setup, find_packages
+
+   setup(
+       name='Test',
+       version='1.0',
+       packages=find_packages(),
+   )
+   ```
+
+3. **Using `pyproject.toml`**: If you are using a `pyproject.toml` file instead of `setup.py`, make sure it is correctly configured. For example:
+   ```toml
+   [build-system]
+   requires = ["setuptools", "wheel"]
+   build-backend = "setuptools.build_meta"
+
+   [project]
+   name = "Test"
+   version = "1.0"
+   ```
+
+4. **Editable Install**: If you are developing the package, consider using an editable install with `pip install -e .`. This allows you to make changes to the code without reinstalling the package.
+
+5. **Check for Errors**: Run the installation command with the `-v` (verbose) flag to see detailed output and check for any errors:
+   ```sh
+   pip install -v .
+   ```
+
+By ensuring your package setup is correct and all necessary files are in place, you should be able to resolve the issue and have the package folder created in `site-packages`.
 
 ## venv
 
