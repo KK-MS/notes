@@ -16,3 +16,9 @@
 
 `git push --set-upstream origin 210302_name`
 
+### Git submodules
+* Helpful: https://git-scm.com/book/en/v2/Git-Tools-Submodules
+
+### Git server
+* Local git is setup as in: https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
+* Git book at: https://git-scm.com/book/en/v2
