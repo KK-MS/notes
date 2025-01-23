@@ -45,4 +45,4 @@ end note
 @enduml
 ```
 
-![Plantuml SVG image with Clickable URL](Plantuml-with-url.svg "Plantuml with URL")
+![Plantuml SVG image with Clickable URL](assets/imgs/plantuml-with-url.svg "Plantuml with URL")
