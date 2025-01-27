@@ -1,9 +1,11 @@
 ## Linux commands
 
-### Contents:
+#### Contents:
 * How to know Kernel version using source code?
 * What are DTS, DTB, DTC and its usage?
+* permission denied for root@localhost for ssh connection
 
+#### Description
 * Kernel: How to know Kernel version using source code?
    1. **Locate the Version File**: The kernel version is typically defined in the `Makefile` located at the root of the source tree. Open the `Makefile` and look for the following lines:
      ```makefile
