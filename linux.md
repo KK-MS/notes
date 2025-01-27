@@ -20,6 +20,31 @@
 ##### 1. DTS, DTB, DTC
 Device Tree Source (DTS) files are simple text files that can be compiled into a binary Device Tree Blob (DTB) (or device tree binaries (DTBs)) format using the Device Tree Compiler (DTC) tool.
 
+* Fix: [permission denied for root@localhost for ssh connection](https://askubuntu.com/questions/497895/permission-denied-for-rootlocalhost-for-ssh-connection)
+  * In `/etc/ssh/sshd_config`, set
+  ```sh
+  PermitRootLogin without-password
+  PermitRootLogin yes
+  ```
+  * `sudo service ssh restart` => restart ssh service.
+
+<details> <summary>Click for more details for Root SSH  </summary>
+
+By default, the SSH server denies password-based login for root. In /etc/ssh/sshd_config, if the following line exists, possibly commented out (with a # in front):
+
+PermitRootLogin without-password
+Then change it to the following, uncommenting if needed (remove the # in front):
+
+PermitRootLogin yes
+And restart SSH:
+
+sudo service ssh restart
+Or, you can use SSH keys. If you don't have one, create one using ssh-keygen (stick to the default for the key, and skip the password if you feel like it). Then do sudo -s (or whatever your preferred method of becoming root is), and add an SSH key to /root/.ssh/authorized_keys:
+
+cat /home/user/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
+
+</details>
+
 ## Ubuntu 20.04
 1. Error:
 
