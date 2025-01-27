@@ -20,13 +20,14 @@
 * BSP, Bootloader: 1. DTS, DTB, DTC
 Device Tree Source (DTS) files are simple text files that can be compiled into a binary Device Tree Blob (DTB) (or device tree binaries (DTBs)) format using the Device Tree Compiler (DTC) tool.
 
-* Fix: [permission denied for root@localhost for ssh connection](https://askubuntu.com/questions/497895/permission-denied-for-rootlocalhost-for-ssh-connection)
+* Fix: [Root SSH: Permission denied, please try again]([https://askubuntu.com/questions/497895/permission-denied-for-rootlocalhost-for-ssh-connection](https://www.alibabacloud.com/help/en/ecs/user-guide/what-do-i-do-if-the-permission-denied-please-try-again-error-message-appears-when-i-log-on-to-a-linux-instance-as-the-root-user-by-using-ssh#:~:text=Open%20the%20SSH%20configuration%20file.&text=Change%20the%20values%20of%20the%20PermitRootLogin%20and%20PasswordAuthentication%20parameters.,the%20PasswordAuthentication%20parameter%20to%20yes%20.))
   * In `/etc/ssh/sshd_config`, set
   ```sh
-  PermitRootLogin without-password
+  # PermitRootLogin without-password
   PermitRootLogin yes
+  PasswordAuthentication yes
   ```
-  * `sudo service ssh restart` => restart ssh service.
+  * `systemctl restart sshd.service` or `sudo service ssh restart` => restart ssh service.
 
 <details> <summary>Click for more details for Root SSH  </summary>
 
