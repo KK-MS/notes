@@ -4,8 +4,7 @@
 * How to know Kernel version using source code?
 * What are DTS, DTB, DTC and its usage?
 
-## Kernel
-* How to know Kernel version using source code?
+* Kernel: How to know Kernel version using source code?
    1. **Locate the Version File**: The kernel version is typically defined in the `Makefile` located at the root of the source tree. Open the `Makefile` and look for the following lines:
      ```makefile
      VERSION = 5
@@ -16,8 +15,7 @@
      These lines indicate the kernel version. In this example, the version would be `5.10.0-imx`.
   2. **Check the `include` Directory**: Another place to check is the `include/generated/utsrelease.h` file, which is generated after building the kernel. This file contains the `#define UTS_RELEASE` line that specifies the kernel version.
 
-## BSP, Bootloader
-##### 1. DTS, DTB, DTC
+* BSP, Bootloader: 1. DTS, DTB, DTC
 Device Tree Source (DTS) files are simple text files that can be compiled into a binary Device Tree Blob (DTB) (or device tree binaries (DTBs)) format using the Device Tree Compiler (DTC) tool.
 
 * Fix: [permission denied for root@localhost for ssh connection](https://askubuntu.com/questions/497895/permission-denied-for-rootlocalhost-for-ssh-connection)
