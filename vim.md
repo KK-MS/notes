@@ -18,6 +18,9 @@
   ```sh
   vim --startuptime /tmp/log
   ```
+* After change in .vimrc,
+  * run `:so ~/.vimrc` or `:source ~/.vimrc` to load the change without closing and opening .vimrc
+  * run `PlugInstall`
 
 ### Sample .vimrc file
 
@@ -39,6 +42,14 @@ Plug 'https://github.com/junegunn/vim-easy-align.git'
 
 " On-demand loading: loaded when the specified command is executed
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
+
+" Tagbar: a class outline viewer for Vim
+" Tagbar is a Vim plugin that provides an easy way to browse the tags of the
+" current file and get an overview of its structure. It does this by creating a
+" sidebar that displays the ctags-generated tags of the current file, ordered
+" by their scope. This means that for example methods in C++ are displayed
+" under the class they are defined in.
+Plug 'preservim/tagbar'
 
 "  A Git wrapper so awesome, it should be illegal
 Plug 'tpope/vim-fugitive'
