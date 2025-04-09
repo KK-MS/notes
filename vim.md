@@ -3,6 +3,21 @@
 ### vim turotials
   * https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/
 
+### VIM plugin
+* Ref: https://github.com/junegunn/vim-plug
+* download plug.vim at autoload directory
+  ```sh
+  mkdir -p ~/.vim/autoload
+  cd ~/.vim/autoload/
+  wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  ```
+* Plug frequently used commands
+  * Install/update: `:PlugInstall` or `PlugUpdate`, to install or update the plugins
+  * Clean: `:PlugClean`, to remove plugins no longer in the list
+* Make sure that you're tackling the right problem by breaking down the startup time of Vim using --startuptime.
+  ```sh
+  vim --startuptime /tmp/log
+  ```
 
 ### Sample .vimrc file
 
