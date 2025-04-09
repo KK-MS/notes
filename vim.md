@@ -1,9 +1,10 @@
-# VIM tips and tricks
+## VIM tips and tricks
 
-## 
-* https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/
+### vim turotials
+  * https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/
 
-* Sample vimrc file
+
+### Sample .vimrc file
 
 <details> <summary> Click for sample .vimrc </summary>
 
